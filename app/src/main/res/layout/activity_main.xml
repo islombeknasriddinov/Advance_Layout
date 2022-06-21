@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="5dp">
+
+
+
+           <RelativeLayout
+               android:background="@drawable/circle_imageview"
+               android:layout_marginTop="20dp"
+               android:layout_width="106dp"
+               android:layout_height="106dp"
+               android:layout_gravity="center">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_centerHorizontal="true"
+                   android:layout_centerVertical="true"
+                   app:cardCornerRadius="50dp">
+
+                   <ImageView
+                       android:src="@drawable/android"
+                       android:scaleType="centerCrop"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+               </androidx.cardview.widget.CardView>
+
+
+           </RelativeLayout>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:background="@drawable/button_gradiet_rotate"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:background="@drawable/button_borders"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:background="@drawable/button_borders"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:layout_gravity="center"
+               android:background="@drawable/button_circle"
+               android:layout_marginTop="20dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:background="@drawable/button_rounded"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               app:backgroundTint="@null"
+               android:background="@drawable/button_gradient"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <Button
+               android:textSize="22dp"
+               android:text="Click me"
+               android:backgroundTint="@null"
+               android:background="#833AB4"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <EditText
+               android:id="@+id/et_key"
+               android:inputType="textPassword"
+               android:padding="10dp"
+               android:textSize="22dp"
+               android:hint="Search here"
+               android:background="@drawable/edittext_rounded_corners_border"
+               android:layout_marginTop="20dp"
+               android:layout_gravity="top|center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <EditText
+               android:padding="10dp"
+               android:textSize="22dp"
+               android:hint="Search here"
+               android:background="@drawable/edittext_border_style"
+               android:layout_marginTop="20dp"
+               android:layout_gravity="top|center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <EditText
+               android:padding="10dp"
+               android:textSize="22dp"
+               android:hint="Search text"
+               android:background="@drawable/edittext_border_color"
+               android:layout_marginTop="20dp"
+               android:layout_gravity="top|center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <EditText
+               android:layout_marginTop="20dp"
+               android:textSize="22dp"
+               android:hint="Search here"
+               android:layout_gravity="top|center_horizontal"
+               android:background="@drawable/edittext_buttom_border"
+               android:padding="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+           <EditText
+               android:hint="Search here"
+               android:layout_marginTop="20dp"
+               android:padding="10dp"
+               android:textSize="22dp"
+               android:layout_gravity="top|center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
